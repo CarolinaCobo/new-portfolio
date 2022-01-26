@@ -3,12 +3,14 @@ import styles from "../styles/Home.module.css";
 import Navbar from "../components/Nav/Nabvar";
 import HeroSection from "../components/HeroSection/HeroSection";
 import Projects from "../components/Projects/Projects";
+import Projects2 from "../components/Projects/Projects";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
       <HeroSection />
+
       <Projects />
 
       <Head>
