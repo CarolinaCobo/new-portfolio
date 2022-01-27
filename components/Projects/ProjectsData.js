@@ -49,9 +49,9 @@ const projectData = [
     githubRepo: "#",
   },
   {
-    stack: "Task Manager",
+    stack: "Python, Flask, MongoDB, HTML, CSS and JQuery",
     projectName: { name: "Task Manager", href: "#" },
-    description: "Python, Flask, MongoDB, HTML, CSS and JQuery",
+    description: "Create, edit, delete and mark as important tasks.",
     imageUrl: "/assets/task-manager.png",
     deployedSite:
       "https://flask-task-manager-project-cob.herokuapp.com/get_tasks",
