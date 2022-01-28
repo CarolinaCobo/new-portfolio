@@ -14,9 +14,9 @@ export default function blog() {
           <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
             Articles
           </h2>
-          <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-            Trying to write more, watch this space for more articles about tech,
-            career change and random topics
+          <p className="mt-3 text-xl text-gray-500 sm:mt-4 max-w-2xl">
+            Watch this space for more articles about tech, career change and
+            other interesting topics
           </p>
         </div>
         <div className="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">

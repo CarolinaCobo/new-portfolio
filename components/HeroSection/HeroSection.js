@@ -14,7 +14,7 @@ export default function HeroSection() {
                     href="#"
                     className="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
                   >
-                    <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-500 rounded-full"></span>
+                    <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-pink-500 rounded-full"></span>
                     <span className="ml-4 text-sm">Social Media</span>
                     <ChevronRightIcon
                       className="ml-2 w-5 h-5 text-gray-500"
@@ -23,7 +23,7 @@ export default function HeroSection() {
                   </a>
                   <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                     <span className="block">Carolina Cobo</span>
-                    <span className="block text-indigo-400">
+                    <span className="block text-pink-400">
                       Front End Developer
                     </span>
                   </h1>

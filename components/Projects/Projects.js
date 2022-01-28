@@ -33,9 +33,11 @@ export default function Projects() {
               </div>
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">
-                  <p className="text-lg leading-6 font-medium space-y-1 text-indigo-600">
-                    {project.projectName.name}
-                  </p>
+                  <a href={project.projectName.href}>
+                    <p className="text-xl leading-6 font-medium space-y-1 text-pink-600">
+                      {project.projectName.name}
+                    </p>
+                  </a>
                   <a href={project.projectName.href} className="block mt-2">
                     <p className="text-xl font-semibold text-gray-900">
                       {project.stack}
@@ -50,7 +52,7 @@ export default function Projects() {
                     <li>
                       <a
                         href={project.deployedSite}
-                        className="text-gray-400 hover:text-gray-500"
+                        className="text-gray-400 hover:text-pink-500"
                       >
                         <span className="sr-only">Deployed Site</span>
                         <svg
@@ -72,7 +74,7 @@ export default function Projects() {
                     <li>
                       <a
                         href={project.githubRepo}
-                        className="text-gray-400 hover:text-gray-500"
+                        className="text-gray-400 hover:text-pink-500"
                       >
                         <span className="sr-only">Github</span>
                         <svg
