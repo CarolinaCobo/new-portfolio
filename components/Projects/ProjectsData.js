@@ -27,12 +27,12 @@ const projectData = [
     stack: "Tailwind",
     projectName: {
       name: "Portfolio v1",
-      href: "https://styx-shoes.herokuapp.com/",
+      href: "https://carolinacobo.github.io/portfolio/",
     },
     description: "First version of my portfolio, only using Tailwind.",
     imageUrl: "/assets/old-portfolio.png",
     deployedSite: "",
-    githubRepo: "",
+    githubRepo: "https://github.com/CarolinaCobo/portfolio",
   },
   {
     stack:

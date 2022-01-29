@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>New Portfolio</title>
+        <title>Carolina Cobo Portfolio</title>
         <meta name="description" content="Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
