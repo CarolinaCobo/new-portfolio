@@ -1,6 +1,9 @@
 export default function Contact() {
   return (
-    <div className="py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24 bg-gray-900">
+    <div
+      id="contact-section"
+      className="py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24 bg-gray-900"
+    >
       <div className="relative max-w-xl mx-auto">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">

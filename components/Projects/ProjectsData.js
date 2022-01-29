@@ -13,12 +13,26 @@ const projectData = [
   },
   {
     stack: "Vanilla JavaScript, HTML & CSS",
-    projectName: { name: "Puppy Rush", href: "#" },
+    projectName: {
+      name: "Puppy Rush",
+      href: "https://carolinacobo.github.io/puppy-rush/",
+    },
     description:
       "Matching puppies game, easy and simple. Inspired on Candy Crush.",
     imageUrl: "/assets/puppy-rush.png",
     deployedSite: "https://carolinacobo.github.io/puppy-rush/",
     githubRepo: "https://github.com/CarolinaCobo/puppy-rush",
+  },
+  {
+    stack: "Tailwind",
+    projectName: {
+      name: "Portfolio v1",
+      href: "https://styx-shoes.herokuapp.com/",
+    },
+    description: "First version of my portfolio, only using Tailwind.",
+    imageUrl: "/assets/old-portfolio.png",
+    deployedSite: "",
+    githubRepo: "",
   },
   {
     stack:

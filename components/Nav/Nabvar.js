@@ -1,10 +1,5 @@
-import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
 
 export default function Navbar() {
   return (
@@ -32,20 +27,33 @@ export default function Navbar() {
                 <div className="col-span-2 hidden md:ml-6 md:flex md:space-x-8">
                   {/* Current: "border-pink-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <a
-                    href="#"
-                    className="border-pink-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium my-2"
+                    className=" border-transparent cursor-pointer hover:border-pink-300 hover:text-pink-700  inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium my-2"
+                    onClick={() => {
+                      const anchor = document.querySelector("#work-section");
+                      anchor.scrollIntoView({
+                        behavior: "smooth",
+                        block: "center",
+                      });
+                    }}
                   >
                     Work
                   </a>
                   <a
-                    href="#"
-                    className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium my-2"
+                    className="border-transparent cursor-pointer hover:border-pink-300 hover:text-pink-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium my-2"
+                    onClick={() => {
+                      const anchor =
+                        document.querySelector("#articles-section");
+                      anchor.scrollIntoView({
+                        behavior: "smooth",
+                        block: "center",
+                      });
+                    }}
                   >
                     Articles
                   </a>
                   <a
                     href="https://github.com/CarolinaCobo"
-                    className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium my-2"
+                    className="border-transparent hover:border-pink-300 hover:text-pink-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium my-2"
                   >
                     GitHub
                   </a>
@@ -54,6 +62,13 @@ export default function Navbar() {
               <div className="flex items-center">
                 <div className="flex-shrink-0">
                   <button
+                    onClick={() => {
+                      const anchor = document.querySelector("#contact-section");
+                      anchor.scrollIntoView({
+                        behavior: "smooth",
+                        block: "center",
+                      });
+                    }}
                     type="button"
                     className="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-pink-600 shadow-sm hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
                   >
