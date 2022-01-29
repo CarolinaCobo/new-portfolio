@@ -1,7 +1,14 @@
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 export default function Navbar() {
+  const scrollTo = (elementId) => {
+    const anchor = document.querySelector(elementId);
+    anchor.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+    });
+  };
   return (
     <Disclosure as="nav" className="bg-white">
       {({ open }) => (
@@ -29,11 +36,7 @@ export default function Navbar() {
                   <a
                     className=" border-transparent cursor-pointer hover:border-pink-300 hover:text-pink-700  inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium my-2"
                     onClick={() => {
-                      const anchor = document.querySelector("#work-section");
-                      anchor.scrollIntoView({
-                        behavior: "smooth",
-                        block: "center",
-                      });
+                      scrollTo("#work-section");
                     }}
                   >
                     Work
@@ -41,12 +44,7 @@ export default function Navbar() {
                   <a
                     className="border-transparent cursor-pointer hover:border-pink-300 hover:text-pink-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium my-2"
                     onClick={() => {
-                      const anchor =
-                        document.querySelector("#articles-section");
-                      anchor.scrollIntoView({
-                        behavior: "smooth",
-                        block: "center",
-                      });
+                      scrollTo("#articles-section");
                     }}
                   >
                     Articles
@@ -63,11 +61,7 @@ export default function Navbar() {
                 <div className="flex-shrink-0">
                   <button
                     onClick={() => {
-                      const anchor = document.querySelector("#contact-section");
-                      anchor.scrollIntoView({
-                        behavior: "smooth",
-                        block: "center",
-                      });
+                      scrollTo("#contact-section");
                     }}
                     type="button"
                     className="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-pink-600 shadow-sm hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
@@ -87,21 +81,37 @@ export default function Navbar() {
                 href="#"
                 className="bg-pink-50 border-pink-500 text-pink-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6"
               >
-                Work
+                Home
               </Disclosure.Button>
+
               <Disclosure.Button
                 as="a"
-                href="#"
+                href="#work-section"
+                className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6"
+              >
+                Work
+              </Disclosure.Button>
+
+              <Disclosure.Button
+                as="a"
+                href="#articles-section"
                 className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6"
               >
                 Articles
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="#"
+                href="https://github.com/CarolinaCobo"
                 className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6"
               >
                 Github
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href="#contact-section"
+                className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6"
+              >
+                Get in touch!
               </Disclosure.Button>
             </div>
           </Disclosure.Panel>

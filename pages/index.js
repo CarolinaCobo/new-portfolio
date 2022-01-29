@@ -8,7 +8,7 @@ import Contact from "../components/Contact/Contact";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Carolina Cobo Portfolio</title>
         <meta name="description" content="Portfolio" />
@@ -21,6 +21,6 @@ export default function Home() {
       <Blog />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }

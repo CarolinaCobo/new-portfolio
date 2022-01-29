@@ -24,7 +24,7 @@ export default function Projects() {
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           {projects.map((project) => (
             <div
-              key={project.name}
+              key={project.projectName.name}
               className="flex flex-col rounded-lg shadow-lg overflow-hidden"
             >
               <div className="flex-shrink-0" href={project.projectName.href}>
