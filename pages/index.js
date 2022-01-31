@@ -17,11 +17,7 @@ export default function Home() {
           property="og:title"
           content="Carolina Cobo - Career switcher projects and articles"
         />
-        <meta
-          key="og:image"
-          property="og:image"
-          content="/images/og/heroimage.png"
-        />
+        <meta key="og:image" property="og:image" content="/og/heroimage.png" />
         <meta
           key="og:description"
           property="og:description"
