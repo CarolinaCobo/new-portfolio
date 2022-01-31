@@ -15,22 +15,22 @@ export default function Home() {
         <meta
           key="og:title"
           property="og:title"
-          content="Carolina Cobo's career switcher portfolio to show projecs and articles"
+          content="Carolina Cobo - Career switcher projects and articles"
         />
         <meta
           key="og:image"
           property="og:image"
-          content="/Users/carolinacobo/Projects/new-portfolio/public/assets/heroImage.svg"
+          content="../public/og/heroimage "
         />
         <meta
           key="og:description"
           property="og:description"
-          content="Projects and articles worked on as software engineer and career switcher."
+          content="Projects and articles I worked on as software engineer and career switcher."
         />
         <meta
           key="description"
           property="description"
-          content="Projects and articles worked on as software engineer and career switcher."
+          content="Projects and articles I worked on as software engineer and career switcher."
         />
         <meta property="og:url" content="https://www.carolinacobo.com/" />
       </Head>

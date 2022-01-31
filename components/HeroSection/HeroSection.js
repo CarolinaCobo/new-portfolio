@@ -41,7 +41,7 @@ export default function HeroSection() {
                   {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
                   <Image
                     // className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                    src="/assets/heroImage.svg"
+                    src="/images/heroImage.svg"
                     width={500}
                     height={500}
                     alt=""

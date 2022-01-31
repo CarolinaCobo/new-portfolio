@@ -7,7 +7,7 @@ const projectData = [
     },
     description:
       "Improvement of Hacker News site with improved UI retrieveing data from Hacker News API.",
-    imageUrl: "/assets/hacker-news.png",
+    imageUrl: "/images/hacker-news.png",
     deployedSite: "https://hacker-news-challenge.vercel.app/",
     githubRepo: "https://github.com/CarolinaCobo/hacker-news-challenge",
   },
@@ -19,7 +19,7 @@ const projectData = [
     },
     description:
       "Matching puppies game, easy and simple. Inspired on Candy Crush.",
-    imageUrl: "/assets/puppy-rush.png",
+    imageUrl: "/images/puppy-rush.png",
     deployedSite: "https://carolinacobo.github.io/puppy-rush/",
     githubRepo: "https://github.com/CarolinaCobo/puppy-rush",
   },
@@ -30,7 +30,7 @@ const projectData = [
       href: "https://carolinacobo.github.io/portfolio/",
     },
     description: "First version of my portfolio, only using Tailwind.",
-    imageUrl: "/assets/old-portfolio.png",
+    imageUrl: "/images/old-portfolio.png",
     deployedSite: "",
     githubRepo: "https://github.com/CarolinaCobo/portfolio",
   },
@@ -40,7 +40,7 @@ const projectData = [
     projectName: { name: "Styx", href: "https://styx-shoes.herokuapp.com/" },
     description:
       "E-commerce platform for shoes and sport gear. The site also handles payments on Stripe.",
-    imageUrl: "/assets/styx.png",
+    imageUrl: "/images/styx.png",
     deployedSite: "https://styx-shoes.herokuapp.com/",
     githubRepo: "https://github.com/CarolinaCobo/styx",
   },
@@ -52,7 +52,7 @@ const projectData = [
     },
     description:
       "Add, create, edit and delete books and comments to share with other users.",
-    imageUrl: "/assets/la-biblioteca.png",
+    imageUrl: "/images/la-biblioteca.png",
     deployedSite: "https://la-biblioteca-ms3.herokuapp.com/",
     githubRepo: "https://github.com/CarolinaCobo/la-biblioteca-ms3",
   },
@@ -61,7 +61,7 @@ const projectData = [
     projectName: { name: "Shopping List", href: "#" },
     description:
       "Private area logging in with Google account, allow you to add and delete items to a shopping list. (Not Deployed yet)",
-    imageUrl: "/assets/shopping-list.png",
+    imageUrl: "/images/shopping-list.png",
     deployedSite: "",
     githubRepo: "https://github.com/CarolinaCobo/shopping-list",
   },
@@ -69,7 +69,7 @@ const projectData = [
     stack: "Python, Flask, MongoDB, HTML, CSS and JQuery",
     projectName: { name: "Task Manager", href: "#" },
     description: "Create, edit, delete and mark as important tasks.",
-    imageUrl: "/assets/task-manager.png",
+    imageUrl: "/images/task-manager.png",
     deployedSite:
       "https://flask-task-manager-project-cob.herokuapp.com/get_tasks",
     githubRepo: "#",
@@ -82,7 +82,7 @@ const projectData = [
     },
     description:
       "WIT Hackaton project. Platform for Mentors and students to connect. I collaborated with 4 other classmates to complete this project.",
-    imageUrl: "/assets/womxn.png",
+    imageUrl: "/images/womxn.png",
     deployedSite:
       "https://carolinacobo.github.io/womxn-femmetech-mentorship/index.html",
     githubRepo: "https://github.com/CarolinaCobo/womxn-femmetech-mentorship",
@@ -95,7 +95,7 @@ const projectData = [
     },
     description:
       "In this page you would find different popular Spanish recipes. Completed in HTML, CSS and Bootstrap. First Milestone Project in Code Institute course.",
-    imageUrl: "/assets/carols.jpg",
+    imageUrl: "/images/carols.jpg",
     deployedSite: "https://carolinacobo.github.io/CarolsKitchen/",
     githubRepo: "https://github.com/CarolinaCobo/CarolsKitchen",
   },
