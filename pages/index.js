@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Meta from "../components/meta";
 import Navbar from "../components/Nav/Nabvar";
 import HeroSection from "../components/HeroSection/HeroSection";
 import Projects from "../components/Projects/Projects";
