@@ -31,7 +31,7 @@ const projectData = [
     },
     description: "First version of my portfolio, only using Tailwind.",
     imageUrl: "/images/old-portfolio.png",
-    deployedSite: "",
+    deployedSite: "https://carolinacobo.github.io/portfolio/",
     githubRepo: "https://github.com/CarolinaCobo/portfolio",
   },
   {

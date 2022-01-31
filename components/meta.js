@@ -7,7 +7,7 @@ export default function Meta() {
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicon/favicon-32x32.png"
+        href="/public/favicon-32x32.png"
       />
       <link rel="shortcut icon" href="/favicon/favicon.ico" />
       <meta name="msapplication-TileColor" content="#000000" />
@@ -31,7 +31,7 @@ export default function Meta() {
       />
       <meta
         property="og:image"
-        content="../public/og/heroimage"
+        content="public/og/heroimage.png"
         key="og:image"
       />
       <meta property="og:type" content="website" />
