@@ -31,7 +31,7 @@ export default function Meta() {
       />
       <meta
         property="og:image"
-        content="public/og/heroimage.png"
+        content="/public/og/heroimage.png"
         key="og:image"
       />
       <meta property="og:type" content="website" />

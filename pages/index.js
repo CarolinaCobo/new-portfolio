@@ -20,7 +20,7 @@ export default function Home() {
         <meta
           key="og:image"
           property="og:image"
-          content="public/og/heroimage.png"
+          content="/public/og/heroimage.png"
         />
         <meta
           key="og:description"
