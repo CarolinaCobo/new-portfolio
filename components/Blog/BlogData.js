@@ -1,5 +1,19 @@
 const blogData = [
   {
+    title: "Oh, s#$t I deleted all my Git history!",
+    href: "https://ccobo.medium.com/oh-s-t-i-deleted-all-my-git-history-4fffef4d9eb6",
+    category: {
+      name: "Coding",
+      href: "https://ccobo.medium.com/oh-s-t-i-deleted-all-my-git-history-4fffef4d9eb6",
+      color: "bg-indigo-100 text-indigo-800",
+    },
+    description:
+      "If you struggle with git as much as I do, this little trick will be helpful to get back on track!",
+    date: "Feb 1, 2022",
+    datetime: "2022-02-01",
+    readingTime: "3 min",
+  },
+  {
     title: "Switching careers: my first month as Software Engineer",
     href: "https://ccobo.medium.com/switching-careers-my-first-month-as-software-engineer-3def49fd6665",
     category: {
@@ -31,7 +45,7 @@ const blogData = [
     title: "Difference between em and rem in CSS",
     href: "https://ccobo.medium.com/difference-between-em-and-rem-css-53bd4cb7349b",
     category: {
-      name: "Software",
+      name: "Coding",
       href: "https://ccobo.medium.com/difference-between-em-and-rem-css-53bd4cb7349b",
       color: "bg-indigo-100 text-indigo-800",
     },
@@ -45,7 +59,7 @@ const blogData = [
     title: "YouTube channels to learn or level up in Python 🐍",
     href: "https://ccobo.medium.com/youtube-channels-to-learn-or-level-up-in-python-4758cafa8142",
     category: {
-      name: "Software",
+      name: "Coding",
       href: "https://ccobo.medium.com/youtube-channels-to-learn-or-level-up-in-python-4758cafa8142",
       color: "bg-indigo-100 text-indigo-800",
     },
