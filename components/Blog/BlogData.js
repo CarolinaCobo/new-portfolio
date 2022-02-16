@@ -9,9 +9,9 @@ const blogData = [
     },
     description:
       "I recently started my first professional job as Software Engineer and I wanted to share my first month in case you are going through the same process or considering it.",
-    date: "Nov 29, 2021",
-    datetime: "2021-11-29",
-    readingTime: "3 min",
+    date: "Feb 14, 2023",
+    datetime: "2022-02-14",
+    readingTime: "5 min",
   },
   {
     title: "Oh, s#$t I deleted all my Git history!",
