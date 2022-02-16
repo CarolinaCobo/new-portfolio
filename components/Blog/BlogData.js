@@ -8,7 +8,7 @@ const blogData = [
       color: "bg-pink-100 text-pink-800",
     },
     description:
-      "I recently started my first professional job as Software Engineer and I wanted to share my first month in case you are going through the same process or considering it.",
+      "I wanted to share my experience building my CV as a career switcher, the mistakes I made and how I solved them. Also you can see the final result and use it as a template.",
     date: "Feb 14, 2023",
     datetime: "2022-02-14",
     readingTime: "5 min",
