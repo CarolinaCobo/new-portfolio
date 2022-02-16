@@ -1,5 +1,19 @@
 const blogData = [
   {
+    title: "Getting a job in tech part 1: CV",
+    href: "https://ccobo.medium.com/getting-a-job-in-tech-part-1-cv-7abc0bda5de5",
+    category: {
+      name: "Careers",
+      href: "https://ccobo.medium.com/getting-a-job-in-tech-part-1-cv-7abc0bda5de5",
+      color: "bg-pink-100 text-pink-800",
+    },
+    description:
+      "I recently started my first professional job as Software Engineer and I wanted to share my first month in case you are going through the same process or considering it.",
+    date: "Nov 29, 2021",
+    datetime: "2021-11-29",
+    readingTime: "3 min",
+  },
+  {
     title: "Oh, s#$t I deleted all my Git history!",
     href: "https://ccobo.medium.com/oh-s-t-i-deleted-all-my-git-history-4fffef4d9eb6",
     category: {
@@ -22,7 +36,7 @@ const blogData = [
       color: "bg-pink-100 text-pink-800",
     },
     description:
-      "I recently started my first professional job as Softwar Engineer and I wanted to share my first month in case you are going through the same process or considering it.",
+      "I recently started my first professional job as Software Engineer and I wanted to share my first month in case you are going through the same process or considering it.",
     date: "Nov 29, 2021",
     datetime: "2021-11-29",
     readingTime: "3 min",
