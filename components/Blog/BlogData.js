@@ -9,7 +9,7 @@ const blogData = [
     },
     description:
       "I wanted to share my experience building my CV as a career switcher, the mistakes I made and how I solved them. Also you can see the final result and use it as a template.",
-    date: "Feb 14, 2023",
+    date: "Feb 14, 2022",
     datetime: "2022-02-14",
     readingTime: "5 min",
   },
