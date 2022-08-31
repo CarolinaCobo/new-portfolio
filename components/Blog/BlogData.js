@@ -1,5 +1,46 @@
 const blogData = [
   {
+    title: "Callbacks, Promises & Async/Await",
+    href: "https://medium.com/@ccobo/callbacks-promises-async-await-7ab6ed3de383",
+    category: {
+      name: "Coding",
+      href: "https://medium.com/@ccobo/callbacks-promises-async-await-7ab6ed3de383",
+      color: "bg-indigo-100 text-indigo-800",
+    },
+    description: "My take away to understand promises and Async/Await",
+    date: "Aug 30, 2022",
+    datetime: "2022-08-30",
+    readingTime: "4 min",
+  },
+  {
+    title:
+      "React Hooks 1: useState, useEffect, useContext, useRef & useReducer",
+    href: "https://ccobo.medium.com/react-hooks-1-usestate-useeffect-usecontext-useref-usereducer-2d0cc95afdec",
+    category: {
+      name: "Coding",
+      href: "https://ccobo.medium.com/react-hooks-1-usestate-useeffect-usecontext-useref-usereducer-2d0cc95afdec",
+      color: "bg-indigo-100 text-indigo-800",
+    },
+    description: "An article in how the most popular Hooks work",
+    date: "Aug 2, 2022",
+    datetime: "2022-08-02",
+    readingTime: "5 min",
+  },
+  {
+    title: "Best projects to start coding",
+    href: "https://ccobo.medium.com/best-projects-to-start-d8800e0797e9",
+    category: {
+      name: "Careers",
+      href: "https://ccobo.medium.com/best-projects-to-start-d8800e0797e9",
+      color: "bg-pink-100 text-pink-800",
+    },
+    description:
+      "I wish I knew this when I started coding so I could have built a portfolio faster",
+    date: "Apr 11, 2022",
+    datetime: "2022-04-11",
+    readingTime: "3 min",
+  },
+  {
     title: "Getting a job in tech part 1: CV",
     href: "https://ccobo.medium.com/getting-a-job-in-tech-part-1-cv-7abc0bda5de5",
     category: {
@@ -64,7 +105,7 @@ const blogData = [
       color: "bg-indigo-100 text-indigo-800",
     },
     description:
-      "Aa a new learner of web development I encountered myself trying to understand what is the difference between em and rem, so here tou can find what are their major differences and how you should use them.",
+      "As a new learner of web development I encountered myself trying to understand what is the difference between em and rem, so here tou can find what are their major differences and how you should use them.",
     date: "Nov 8, 2020",
     datetime: "2020-11-08",
     readingTime: "1 min",
