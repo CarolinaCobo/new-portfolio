@@ -1,5 +1,29 @@
 const projectData = [
   {
+    stack: "React, HTML, Tailwind and Contentful",
+    projectName: {
+      name: "Portfolio",
+      href: "https://jesushcobo.com/",
+    },
+    description:
+      "Product Designer Portfolio. Showcast work examples and Testimonials",
+    imageUrl: "/images/jesus-portfolio.png",
+    deployedSite: "https://jesushcobo.com/",
+    githubRepo: "https://github.com/CarolinaCobo/jesus-portfolio",
+  },
+  {
+    stack: "React, HTML, Tailwind and Contentful",
+    projectName: {
+      name: "Ana SevMar Portfolio",
+      href: "https://www.anasevmar.com/",
+    },
+    description:
+      "Product Designer Portfolio. Showcast work examples and Testimonials",
+    imageUrl: "/images/ana-portfolio.png",
+    deployedSite: "https://www.anasevmar.com/",
+    githubRepo: "hhttps://github.com/colin5530/anasevmar",
+  },
+  {
     stack: "React, HTML & CSS",
     projectName: {
       name: "Hacker News",
