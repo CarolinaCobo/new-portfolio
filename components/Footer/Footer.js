@@ -69,7 +69,7 @@ export default function Footer() {
           ))}
         </div>
         <p className="mt-8 text-center text-base text-gray-400">
-          &copy; 2022 Carolina Cobo. All rights reserved.
+           &copy; {new Date().getFullYear()} Carolina Cobo. All rights reserved.
         </p>
       </div>
     </footer>
