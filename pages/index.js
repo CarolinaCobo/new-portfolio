@@ -30,13 +30,13 @@ export default function Home() {
         />
         <meta property="og:url" content="https://www.carolinacobo.com/" />
       </Head>
-
       <Navbar />
       <HeroSection />
       <Projects />
       <Blog />
       <Contact />
       <Footer />
+      <Navbar />
     </>
   );
 }

@@ -18,8 +18,16 @@ export default function blog() {
             Articles
           </h2>
           <p className="mt-3 text-xl text-gray-500 sm:mt-4 max-w-2xl">
-            Watch this space for more articles about tech, career change and
-            other interesting topics
+            This area is work in progress as my content is growing I&apos;m
+            planning on using a more efficient way of showing my articles.
+          </p>
+        </div>
+        <div className="text-left">
+          <p className="mt-3 text-xl text-gray-500 sm:mt-4 max-w-2xl">
+            I also have been contributing and sharing my articles in{" "}
+            <a className="text-pink-600" href="https://www.codu.co/articles">
+              Codú
+            </a>
           </p>
         </div>
         <div className="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">

@@ -1,5 +1,29 @@
 const projectData = [
   {
+    stack: "React, TS, Next.js, Tailwind and Google Spreadsheets",
+    projectName: {
+      name: "Lupita & Max wedding website",
+      href: "https://www.lupitaandmax-aregettingmarried.com/",
+    },
+    description:
+      "Multilingual (French, Spanish and English) wedding website, RSVP form connected to Google API that populates on Google Spreadsheet.",
+    imageUrl: "/images/lupita-max.png",
+    deployedSite: "https://www.lupitaandmax-aregettingmarried.com/",
+    githubRepo: "https://github.com/CarolinaCobo/lupita-and-max-wedding",
+  },
+  {
+    stack: "React, HTML, Tailwind, Pipedream and Contentful",
+    projectName: {
+      name: "Lazaro y Garrido Abogados",
+      href: "https://lazaro-y-garrido.vercel.app/",
+    },
+    description:
+      "Website for an Spanish lawfirm. Responsive design, contact information and form.",
+    imageUrl: "/images/lazaro-garrido.png",
+    deployedSite: "https://lazaro-y-garrido.vercel.app/",
+    githubRepo: "https://github.com/CarolinaCobo/lazaro-y-garrido",
+  },
+  {
     stack: "React, HTML, Tailwind and Contentful",
     projectName: {
       name: "Portfolio",
