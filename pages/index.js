@@ -34,7 +34,7 @@ export default function Home() {
       <HeroSection />
       <Projects />
       <Blog />
-      <Contact />
+      // <Contact />
       <Footer />
       <Navbar />
     </>
