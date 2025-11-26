@@ -4,7 +4,6 @@ import HeroSection from "../components/HeroSection/HeroSection";
 import Projects from "../components/Projects/Projects";
 import Blog from "../components/Blog/Blog";
 import Footer from "../components/Footer/Footer";
-import Contact from "../components/Contact/Contact";
 
 export default function Home() {
   return (
@@ -34,7 +33,6 @@ export default function Home() {
       <HeroSection />
       <Projects />
       <Blog />
-      // <Contact />
       <Footer />
       <Navbar />
     </>

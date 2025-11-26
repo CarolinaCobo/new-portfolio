@@ -58,17 +58,6 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="flex items-center">
-                <div className="flex-shrink-0">
-                  <button
-                    onClick={() => {
-                      scrollTo("#contact-section");
-                    }}
-                    type="button"
-                    className="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-pink-600 shadow-sm hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
-                  >
-                    <span>Get in touch!</span>
-                  </button>
-                </div>
               </div>
             </div>
           </div>
@@ -105,13 +94,6 @@ export default function Navbar() {
                 className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6"
               >
                 Github
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="#contact-section"
-                className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6"
-              >
-                Get in touch!
               </Disclosure.Button>
             </div>
           </Disclosure.Panel>
